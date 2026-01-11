@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr" data-lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact – Autumn Festival 2026</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/i18n.js"></script>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html"><strong>Autumn Festival 2026</strong><span>Fusion gourmandes – Vibes Afro Suisse</span></a>
+    <nav class="menu">
+      <a href="index.html">Accueil</a>
+      <a href="programme.html">Programme</a>
+      <a href="food.html">Food</a>
+      <a href="artistes.html">Artistes</a>
+      <a href="sponsors.html">Sponsors</a>
+      <a href="galerie.html">Galerie</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+    <div class="lang">
+      <button type="button" data-lang-btn="fr">FR</button>
+      <button type="button" data-lang-btn="en">EN</button>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="card" data-i18n>
+    <div data-fr>
+      <h1>Contact</h1>
+      <p class="muted">Remplace ces infos par les tiennes.</p>
+
+      <div class="two-col section">
+        <div class="card">
+          <h2>Coordonnées</h2>
+          <ul class="list">
+            <li><strong>Email</strong> : <a href="mailto:contact@autumnfestival.ch">contact@autumnfestival.ch</a> (à modifier)</li>
+            <li><strong>Téléphone</strong> : +41 xx xxx xx xx (à modifier)</li>
+            <li><strong>Lieu</strong> : Salle polyvalente de Montoly — 1196 Gland</li>
+          </ul>
+          <div class="notice">
+            Pour un formulaire “réel” (qui envoie un email), tu peux utiliser Formspree / Netlify Forms.
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Écrire un message</h2>
+          <form class="form" action="mailto:contact@autumnfestival.ch" method="post" enctype="text/plain">
+            <input name="nom" placeholder="Nom / Entreprise" required>
+            <input name="email" type="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Votre message (sponsoring, partenariat, infos…)" required></textarea>
+            <button class="btn" type="submit">Envoyer</button>
+          </form>
+          <small class="muted">Note : l’action “mailto” ouvre l’app email. Pour un envoi direct, utilise un service de formulaires.</small>
+        </div>
+      </div>
+
+      <div class="section card">
+        <h2>Carte</h2>
+        <div class="ph">Intègre ici une carte Google Maps (iframe) quand tu veux.</div>
+      </div>
+    </div>
+
+    <div data-en style="display:none">
+      <h1>Contact</h1>
+      <p class="muted">Replace these placeholders with your real details.</p>
+
+      <div class="two-col section">
+        <div class="card">
+          <h2>Details</h2>
+          <ul class="list">
+            <li><strong>Email</strong>: <a href="mailto:contact@autumnfestival.ch">contact@autumnfestival.ch</a> (edit)</li>
+            <li><strong>Phone</strong>: +41 xx xxx xx xx (edit)</li>
+            <li><strong>Venue</strong>: Montoly Multipurpose Hall — 1196 Gland</li>
+          </ul>
+          <div class="notice">
+            For a “real” form (email delivery), you can use Formspree / Netlify Forms.
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Send a message</h2>
+          <form class="form" action="mailto:contact@autumnfestival.ch" method="post" enctype="text/plain">
+            <input name="name" placeholder="Name / Company" required>
+            <input name="email" type="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Your message (sponsorship, partnership, info…)" required></textarea>
+            <button class="btn" type="submit">Send</button>
+          </form>
+          <small class="muted">Note: “mailto” opens your email app. For direct submission, use a form service.</small>
+        </div>
+      </div>
+
+      <div class="section card">
+        <h2>Map</h2>
+        <div class="ph">Add a Google Maps embed (iframe) here anytime.</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="container"><div class="muted">© 2026 Autumn Festival</div></footer>
+</body>
+</html>
